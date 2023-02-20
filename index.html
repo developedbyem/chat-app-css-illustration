@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | [Chat app css illustration]</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- phone -->
+      <div class="phone">
+        <div class="phone-container">
+          <div class="phone-inner">
+            <!-- header -->
+            <div class="header-bg">
+              <div class="header-left">
+                <div class="chev">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="3.5"
+                    stroke="#fff"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15.75 19.5L8.25 12l7.5-7.5"
+                    />
+                  </svg>
+                </div>
+
+                <div class="header-img">
+                  <img src="images/avatar.jpg" alt="avatar picture" />
+                </div>
+
+                <div class="header-info">
+                  <div class="name">Samuel Green</div>
+                  <div class="status">Available to Walk</div>
+                </div>
+              </div>
+              <div class="header-right">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="#fff"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 6.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 12.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- chat -->
+            <div class="chat">
+              <p class="chat-left" id="anime1">
+                That sounds great. I’d be happy to discuss more.
+              </p>
+              <p class="chat-left" id="anime2">
+                Could you send over some pictures of your dog, please?
+              </p>
+              <div class="flex-images" id="anime3">
+                <img src="images/dog-image-1.jpg" alt="dog picture" />
+                <img src="images/dog-image-2.jpg" alt="dog picture" />
+                <img src="images/dog-image-3.jpg" alt="dog picture" />
+              </div>
+              <p class="chat-right" id="anime4">
+                Here are a few pictures. She’s a happy girl!
+              </p>
+              <p class="chat-right" id="anime5">Can you make it?</p>
+              <span class="chat-left" id="anime6" style="margin-top: 0.53rem">
+                She looks so happy! The time we discussed works. How long shall
+                I take her out for?
+              </span>
+              <div class="option" id="anime7">
+                <div class="opt-info">
+                  <input type="radio" name="option" id="" />
+                  <span class="option-text">30 minute walk</span>
+                </div>
+
+                <span class="option-price">$29</span>
+              </div>
+              <div class="option" id="anime8">
+                <div class="opt-info">
+                  <input type="radio" name="option" id="" />
+                  <span class="option-text">1 hour walk</span>
+                </div>
+
+                <span class="option-price">$49</span>
+              </div>
+            </div>
+            <!-- massage-box -->
+            <div class="message">
+              <input type="text" name="" id="" placeholder="Type a message…" />
+              <button type="button" class="send-message">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="4"
+                  stroke="#fff"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15.75 19.5L8.25 12l7.5-7.5"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- info -->
+      <div class="info">
+        <h1>Simple booking</h1>
+        <p>
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
+        </p>
+      </div>
+    </div>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+    <script src="main.js"></script>
+  </body>
+</html>
